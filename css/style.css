@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "Larsseit";
+  src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Larsseit";
+  src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Larsseit";
+  src: url("../fonts/Larsseit-Regular.woff2") format("woff2"),
+      url("../fonts/Larsseit-Regular.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+*  {
+  /* color: red; */
+}
+
+h1 {
+  color: gray;
+}
+h2,
+h3,
+h4 {
+  color: #000;
+}
+
+#title {
+    color: blue;
+}
+ 
+p {
+  /* color: #000; */
+}
+
+.heating-season {
+  color: springgreen;
+  font-family: "Larsseit";
+  font-weight: 500;
+}
+
+#main-content {
+  color: red;
+}
+
+.title2 {
+  color: blue;
+  font-family: "Larsseit";
+  font-weight: 700;
+}
+
+h2 {
+  color: seagreen;
+}
+
+.now {
+  color: yellow;
+  font-family: "lato";
+  font-weight: 900;
+  }
+  
+.now > p {
+	color: purple;
+}
+
+.minister {
+  color: turquoise;
+  font-family: "lato";
+  font-weight: 700;
+}
+
+.season {
+  color: peru;
+}
+
+#season-2023 {
+  color: slateblue;
+  font-family: "Larsseit";
+  font-weight: 700;
+}
+
+.season > ul {
+  color: tomato;
+}
+
+.gas + li{
+/* color: yellow; */
+}
+
+.coal ~ li{
+  /* color: red; */
+}
+
+.gas {
+color: yellowgreen;
+font-family: "Roboto";
+font-weight: 100;
+}
+
+.coal {
+  color: violet;
+  font-family: "Roboto";
+  font-weight: 700;
+}
+
+.electricity {
+  color: teal;
+}
+
+.electricity > ul{
+  color: mediumblue;
+  font-family: "Roboto";
+  font-weight: 900;
+}
+
+.wood {
+  color: brown;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+.wood +li{
+/* color: orange; */
+}
+
+.tariff {
+  color: lime;
+}
+
+/* .fuel li{
+  color: #000;
+} */
+
+#how-to-survive {
+  color: deeppink;
+}
+#conclusion >p{
+  color: brown;
+}
+
+#conclusion~div{
+  /* color: #000; */
+}
+.content {
+color: blue;
+}
